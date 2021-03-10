@@ -9,7 +9,7 @@ library("magrittr") # حزمة لصنع الـ pipes
 library("stringr") # حزمة للتعامل مع البيانات النصية
 library("stopwords") # حزمة تحويل على قائمة بالمفردات التي لا معنى لها
 
-df <- rwa_read("D:/100 hours of ML/whatsapp analysis/WhatsApp Chat with AOU.txt", verbose = TRUE)
+df <- rwa_read("D:/100_hours_of_ML/whatsapp_analysis/WhatsApp Chat with AOU.txt", verbose = TRUE)
 
 #This step is to annonomize source to protect privacy 
 df1 <- df %>% select(-source)
